@@ -15,7 +15,7 @@ while True:
             print("Bye. Game Over!")
             break
         
-        # Split the input string and convert to integers
+        
         missionaries, cannibals = map(int, input_str.split())
 
         if boat == "right":
